@@ -26,10 +26,13 @@ jobs:
         
       - name: Build
         run: npm run build
-
+        
+      - name: Add .nojekyll file
+        run: touch ./out/.nojekyll
+        
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          publish_branch: gh-pages  # This will create the gh-pages branch 
+          publish_branch: gh-pages 
