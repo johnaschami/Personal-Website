@@ -93,14 +93,12 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:johnas1433@yahoo.com")
-                      }
+                      onClick={() => router.push("/resume")}
+                      classes="first:ml-1"
                     >
                       Resume
                     </Button>
                   )}
-
                   <Button
                     onClick={() => window.open("mailto:johnas1433@yahoo.com")}
                   >
