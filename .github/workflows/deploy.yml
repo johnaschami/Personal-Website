@@ -27,8 +27,11 @@ jobs:
       - name: Build
         run: npm run build
         
+      # Create .nojekyll file before the build
       - name: Add .nojekyll file
-        run: touch ./out/.nojekyll
+        run: |
+          touch .nojekyll
+          cp .nojekyll out/
         
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

@@ -783,61 +783,46 @@ const Edit = () => {
                 </div>
               </div>
               <hr className="my-10"></hr>
-              <div className="flex">
+              <div className="mt-5">
                 <label className="w-1/5 text-lg opacity-50">Frameworks</label>
                 <div className="w-4/5 ml-10 flex flex-col">
-                  {data.resume.frameworks.map((framework, index) => (
+                  {data.resume.frameworks?.map((framework, index) => (
                     <div key={index} className="flex">
                       <input
                         value={framework}
                         onChange={(e) => {
+                          const newFrameworks = [...data.resume.frameworks];
+                          newFrameworks[index] = e.target.value;
                           setData({
                             ...data,
-                            resume: {
-                              ...data.resume,
-                              frameworks: [
-                                ...data.resume.frameworks.slice(0, index),
-                                e.target.value,
-                                ...data.resume.frameworks.slice(index + 1),
-                              ],
-                            },
+                            resume: { ...data.resume, frameworks: newFrameworks },
                           });
                         }}
-                        className="w-full p-2 rounded-md shadow-lg border-2"
-                        type="text"
-                      ></input>
-                      <Button
-                        onClick={() =>
-                          setData({
-                            ...data,
-                            resume: {
-                              ...data.resume,
-                              frameworks: data.resume.frameworks.filter(
-                                (value, i) => index !== i
-                              ),
-                            },
-                          })
-                        }
-                      >
-                        Remove
-                      </Button>
+                        className="outline-none bg-transparent border-b-2 border-gray-400"
+                      />
                     </div>
                   ))}
-                  <Button
-                    onClick={() =>
-                      setData({
-                        ...data,
-                        resume: {
-                          ...data.resume,
-                          frameworks: [...data.resume.frameworks, "Added"],
-                        },
-                      })
-                    }
-                    type="primary"
-                    classes="hover:scale-100"
-                  >
-                    Add +
-                  </Button>
+                </div>
+              </div>
+              <div className="mt-5">
+                <label className="w-1/5 text-lg opacity-50">Values</label>
+                <div className="w-4/5 ml-10 flex flex-col">
+                  {data.resume.values?.map((value, index) => (
+                    <div key={index} className="flex">
+                      <input
+                        value={value}
+                        onChange={(e) => {
+                          const newValues = [...data.resume.values];
+                          newValues[index] = e.target.value;
+                          setData({
+                            ...data,
+                            resume: { ...data.resume, values: newValues },
+                          });
+                        }}
+                        className="outline-none bg-transparent border-b-2 border-gray-400"
+                      />
+                    </div>
+                  ))}
                 </div>
               </div>
               <hr className="my-10"></hr>
