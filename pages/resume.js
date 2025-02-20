@@ -5,6 +5,7 @@ import ProjectResume from "../components/ProjectResume";
 import Socials from "../components/Socials";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
+import SEO from '../components/SEO';
 // Data
 import { name, showResume } from "../data/portfolio.json";
 import { resume } from "../data/portfolio.json";
@@ -23,6 +24,10 @@ const Resume = () => {
   }, [showResume, router]);
   return (
     <>
+      <SEO 
+        title="Johnas Chami - Resume"
+        description="Data & Analytics Engineer with experience in hospitality, healthcare, industrial, and tech sectors. View my professional experience and skills."
+      />
       {process.env.NODE_ENV === "development" && (
         <div className="fixed bottom-6 right-6">
           <Button onClick={() => router.push("/edit")} type={"primary"}>
