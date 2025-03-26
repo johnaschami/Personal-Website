@@ -131,28 +131,40 @@ export default function Home() {
             </div>
           )}
           <div className="mt-10 laptop:mt-40 px-4 laptop:px-20" ref={aboutRef}>
-          <h1 className="text-3xl font-bold mb-6">About.</h1>
-          <p className="text-lg leading-relaxed max-w-screen-lg">
-               Hi, I&apos;m Johnas Chami, a Data & Analytics Engineer and founder of{" "}
- <a href="https://hakunamatataai.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-   HakunaMatata AI
- </a>
- , where we help startups and SMEs navigate data, AI, and digital transformation. With experience spanning hospitality, healthcare, industrial, and tech sectors, I&apos;ve worked with industry leaders like{" "}
- <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-   Microsoft
- </a>
- ,{" "}
- <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-   Cloudflare
- </a>
- , and international businesses such as{" "}
- <a href="https://aapi.pt" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-   AAPI
- </a>
- , Leiria. My diverse background has shaped my expertise in data-driven solutions and business strategy. <br /><br />
- 
- Beyond work, I enjoy playing football, DJing, cooking, hiking, and spending time with friends and family. I speak English 🇬🇧, Swahili 🇹🇿, Turkish 🇹🇷, and Portuguese 🇵🇹. My core values are empathy, care, and leadership over bossing—these define my approach to work and life. If you&apos;re cool enough, you can even volunteer to be my swimming coach! 😆
-          </p>
+            <h1 className="text-3xl font-bold mb-6">About.</h1>
+            <div className="flex flex-col laptop:flex-row items-center gap-8">
+              <div className="w-full laptop:w-1/3">
+                <img
+                  src="/images/Profile_Photo_nobackground.png"
+                  alt="Johnas Chami"
+                  className="rounded-lg shadow-lg w-full max-w-md mx-auto"
+                />
+              </div>
+              <div className="w-full laptop:w-2/3">
+                <p className="text-lg leading-relaxed">
+                  Hi, I&apos;m Johnas Chami, a Data & Analytics Engineer and founder of{" "}
+                  <a href="https://hakunamatataai.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    HakunaMatata AI
+                  </a>
+                  , where we help startups and SMEs navigate data, AI, and digital transformation. With experience spanning hospitality, healthcare, industrial, and tech sectors, I&apos;ve worked with industry leaders like{" "}
+                  <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    Microsoft
+                  </a>
+                  ,{" "}
+                  <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    Cloudflare
+                  </a>
+                  , and international businesses such as{" "}
+                  <a href="https://aapi.pt" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    AAPI
+                  </a>
+                  , Leiria. My diverse background has shaped my expertise in data-driven solutions and business strategy.
+                </p>
+                <p className="text-lg leading-relaxed mt-4">
+                  Beyond work, I enjoy playing football, DJing, cooking, hiking, and spending time with friends and family. I speak English 🇬🇧, Swahili 🇹🇿, Turkish 🇹🇷, and Portuguese 🇵🇹. My core values are empathy, care, and leadership over bossing—these define my approach to work and life. If you&apos;re cool enough, you can even volunteer to be my swimming coach! 😆
+                </p>
+              </div>
+            </div>
           </div>
           <Footer />
         </div>

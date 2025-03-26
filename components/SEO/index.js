@@ -9,6 +9,25 @@ const SEO = ({ title, description, image }) => {
     url: "https://johnaschami.vercel.app",
   };
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": data.name,
+    "url": seoData.url,
+    "image": seoData.image,
+    "sameAs": [
+      "https://github.com/johnaschami",
+      "https://www.linkedin.com/in/johnas-chami-40aaa212a/",
+      "https://x.com/johnaschami"
+    ],
+    "jobTitle": "Data & Analytics Engineer",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "HakunaMatata AI"
+    },
+    "description": seoData.description
+  };
+
   return (
     <Head>
       <title>{seoData.title}</title>
@@ -29,9 +48,23 @@ const SEO = ({ title, description, image }) => {
       <meta property="twitter:image" content={seoData.image} />
 
       {/* Additional SEO tags */}
-      <meta name="keywords" content="data engineer, analytics, AI, digital transformation, Johnas Chami, HakunaMatata AI" />
+      <meta name="keywords" content="data engineer, analytics, AI, digital transformation, Johnas Chami, HakunaMatata AI, data strategy, cloud strategy, business intelligence" />
       <meta name="author" content={data.name} />
+      <meta name="robots" content="index, follow" />
+      <meta name="language" content="English" />
+      <meta name="revisit-after" content="7 days" />
+      <meta name="generator" content="Next.js" />
       <link rel="canonical" href={seoData.url} />
+      
+      {/* Favicon */}
+      <link rel="icon" href="/favicon.ico" />
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+      
+      {/* Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
     </Head>
   );
 };
