@@ -10,22 +10,9 @@ const Footer = () => {
           <h1 className="text-2xl text-bold">Contact.</h1>
           <div className="mt-10">
             <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              LET&apos;S WORK
-            </h1>
-            <h1 className="text-3xl tablet:text-6xl laptop:text-6xl laptopl:text-8xl text-bold">
-              TOGETHER
+              LET&apos;S WORK TOGETHER
             </h1>
             
-            {/* Updated Button to Send Email */}
-            <div className="flex justify-center">
-              <Button
-                type="primary"
-                onClick={() => window.location.href = "mailto:johnas1433@yahoo.com"}
-              >
-                Email Me
-              </Button>
-            </div>
-
             <div className="mt-10 flex justify-center">
               <Socials />
             </div>
