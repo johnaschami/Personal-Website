@@ -57,8 +57,8 @@ const SEO = ({ title, description, image }) => {
       <link rel="canonical" href={seoData.url} />
       
       {/* Favicon */}
-      <link rel="icon" type="image/png" href="/images/Personal Logo.png" />
-      <link rel="apple-touch-icon" href="/images/Personal Logo.png" />
+      <link rel="icon" type="image/png" href="/images/Profile_Photo_nobackground.png" />
+      <link rel="apple-touch-icon" href="/images/Profile_Photo_nobackground.png" />
       
       {/* Structured Data */}
       <script
