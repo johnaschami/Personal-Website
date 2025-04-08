@@ -143,8 +143,8 @@ export default function Home() {
               <div className="w-full laptop:w-2/3">
                 <p className="text-lg leading-relaxed">
                   Hi, I&apos;m Johnas Chami, a Data & Analytics Engineer and founder of{" "}
-                  <a href="https://hakunamatataai.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-                    HakunaMatata AI
+                  <a href="https://aprikoti.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    Aprikoti
                   </a>
                   , where we help startups and SMEs navigate data, AI, and digital transformation. With experience spanning hospitality, healthcare, industrial, and tech sectors, I&apos;ve worked with industry leaders like{" "}
                   <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
