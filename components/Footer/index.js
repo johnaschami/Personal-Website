@@ -25,7 +25,7 @@ const Footer = () => {
         <h1 className="text-sm text-bold mt-2 laptop:mt-10 p-2 laptop:p-0">
           Made With ❤ by{" "}
           <a
-            href="https://hakunamatataai.com"
+            href="https://aprikoti.com"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-1"
