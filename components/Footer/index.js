@@ -30,7 +30,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="underline underline-offset-1"
           >
-            HakunaMatata AI
+            Aprikoti
           </a>
         </h1>
       </div>
