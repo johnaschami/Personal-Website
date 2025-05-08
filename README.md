@@ -2,7 +2,7 @@
 
 Welcome to my **personal portfolio website**! This is a modern, fast, and stylish portfolio built using **Next.js**, **Tailwind CSS**, and **React**.
 
-🚀 **Live Demo**: [johnaschami.vercel.app](https://johnaschami.com/
+🚀 **Live Demo**: [johnaschami.com](https://johnaschami.com/
 )
 
 ## 📌 Features
