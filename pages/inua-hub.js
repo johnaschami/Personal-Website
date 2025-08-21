@@ -59,10 +59,10 @@ export default function InuaHub() {
                   What is Inua Hub?
                 </h2>
                 <p className="text-lg laptop:text-xl leading-relaxed text-gray-700 dark:text-gray-300 mb-6">
-                  Inua Hub is a youth-led nonprofit I founded to empower youth, women, and small businesses with digital skills, tools, and opportunities. <span className="font-semibold text-blue-600 dark:text-blue-400">"Inua"</span> means <span className="font-semibold">"to empower"</span> or <span className="font-semibold">"to uplift"</span> in Swahili.
+                  Inua Hub is a youth-led nonprofit I founded to empower youth, women, and small businesses with digital skills, tools, and opportunities. <span className="font-semibold text-blue-600 dark:text-blue-400">&ldquo;Inua&rdquo;</span> means <span className="font-semibold">&ldquo;to empower&rdquo;</span> or <span className="font-semibold">&ldquo;to uplift&rdquo;</span> in Swahili.
                 </p>
                 <p className="text-lg laptop:text-xl leading-relaxed text-gray-700 dark:text-gray-300">
-                  We believe that in today's digital economy, access to technology and digital literacy isn't just an advantage, it's essential. That's why we're building bridges to opportunity, one skill at a time.
+                  We believe that in today&apos;s digital economy, access to technology and digital literacy isn&apos;t just an advantage, it&apos;s essential. That&apos;s why we&apos;re building bridges to opportunity, one skill at a time.
                 </p>
               </div>
             </div>
@@ -71,7 +71,7 @@ export default function InuaHub() {
             <div ref={quoteRef} className="mb-20">
               <div className="bg-gradient-to-r from-blue-50 to-purple-50 dark:from-slate-800 dark:to-slate-900 rounded-2xl p-8 laptop:p-12 border-l-4 border-blue-600">
                 <blockquote className="text-xl laptop:text-2xl font-medium text-gray-800 dark:text-white leading-relaxed mb-6 italic">
-                  "Helping people isn't just about providing for today, it's about equipping them for tomorrow. That's why I believe skills are the greatest gift we can give. I dedicated my life to empowering the next generation of dreamers, so they can create opportunities where none existed before."
+                  &ldquo;Helping people isn&apos;t just about providing for today, it&apos;s about equipping them for tomorrow. That&apos;s why I believe skills are the greatest gift we can give. I dedicated my life to empowering the next generation of dreamers, so they can create opportunities where none existed before.&rdquo;
                 </blockquote>
                 <div className="flex items-center">
                   <div className="w-16 h-0.5 bg-gradient-to-r from-blue-600 to-purple-600 mr-4"></div>
