@@ -79,6 +79,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 <div className="grid grid-cols-1">
                   <Button onClick={handleWorkScroll}>Work</Button>
                   <Button onClick={handleAboutScroll}>About</Button>
+                  <Button onClick={() => router.push("/inua-hub")}>Inua Hub</Button>
                   {showBlog && (
                     <Button
                       onClick={() =>
@@ -110,6 +111,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   <Button onClick={() => router.push("/")} classes="first:ml-1">
                     Home
                   </Button>
+                  <Button onClick={() => router.push("/inua-hub")}>Inua Hub</Button>
                   {showBlog && (
                     <Button
                       onClick={() =>
@@ -159,6 +161,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
           <div className="flex">
             <Button onClick={handleWorkScroll}>Work</Button>
             <Button onClick={handleAboutScroll}>About</Button>
+            <Button onClick={() => router.push("/inua-hub")}>Inua Hub</Button>
             {showBlog && (
               <Button
                 onClick={() =>
@@ -201,6 +204,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         ) : (
           <div className="flex">
             <Button onClick={() => router.push("/")}>Home</Button>
+            <Button onClick={() => router.push("/inua-hub")}>Inua Hub</Button>
             {showBlog && (
               <Button
                 onClick={() =>
