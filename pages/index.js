@@ -146,7 +146,7 @@ export default function Home() {
                   <a href="https://aprikoti.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
                     Aprikoti
                   </a>
-                  , where we help startups and SMEs navigate data, AI, and digital transformation. With experience spanning hospitality, healthcare, industrial, and tech sectors, I&apos;ve worked with industry leaders like{" "}
+                  , where we help SMESs and startups navigate data, AI, and digital transformation. With experience spanning hospitality, healthcare, industrial, and tech sectors, I&apos;ve worked with industry leaders like{" "}
                   <a href="https://www.microsoft.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
                     Microsoft
                   </a>
@@ -154,14 +154,14 @@ export default function Home() {
                   <a href="https://www.cloudflare.com" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
                     Cloudflare
                   </a>
-                  , and international businesses such as{" "}
-                  <a href="https://aapi.pt" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-                    AAPI
+                  , and international market research such as{" "}
+                  <a href="https://www.ipsos.com/" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
+                    Ipsos
                   </a>
-                  , Leiria. My diverse background has shaped my expertise in data-driven solutions and business strategy.
+                  . My diverse background has shaped my expertise in data-driven solutions and business strategy.
                 </p>
                 <p className="text-lg leading-relaxed mt-4">
-                  Beyond work, I enjoy playing football, DJing, cooking, hiking, and spending time with friends and family. I speak English 🇬🇧, Swahili 🇹🇿, Turkish 🇹🇷, and Portuguese 🇵🇹. My core values are empathy, care, and leadership over bossing—these define my approach to work and life. If you&apos;re cool enough, you can even volunteer to be my swimming coach! 😆
+                  Beyond work, I enjoy playing football, DJing, cooking, hiking, and spending time with friends and family. I speak English, Swahili, Turkish and Portuguese.
                 </p>
               </div>
             </div>
